@@ -1,0 +1,21 @@
+cubes:
+  - name: customers
+    sql_table: dim_customers
+
+    dimensions:
+      - name: customer_id
+        sql: customer_id
+        type: string
+        primary_key: true
+
+      - name: company_name
+        sql: company_name
+        type: string
+
+      - name: region
+        sql: region
+        type: string
+
+      - name: tier
+        sql: tier
+        type: string

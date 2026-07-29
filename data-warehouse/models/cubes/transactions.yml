@@ -1,0 +1,33 @@
+cubes:
+  - name: transactions
+    sql_table: fact_transactions
+
+    joins:
+      - name: customers
+        sql: "{CUBE}.customer_id = {customers.customer_id}"
+        relationship: many_to_one
+      - name: products
+        sql: "{CUBE}.product_id = {products.product_id}"
+        relationship: many_to_one
+
+    measures:
+      - name: total_revenue
+        sql: amount
+        type: sum
+
+      - name: transaction_count
+        type: count
+
+    dimensions:
+      - name: transaction_id
+        sql: transaction_id
+        type: string
+        primary_key: true
+
+      - name: transaction_date
+        sql: transaction_date
+        type: time
+
+      - name: status
+        sql: status
+        type: string
