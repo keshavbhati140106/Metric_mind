@@ -1,0 +1,5 @@
+product_id,product_name,monthly_price,billing_cycle
+PROD-01,MetricMind Starter,99,Monthly
+PROD-02,MetricMind Pro Annual,299,Annual
+PROD-03,MetricMind Enterprise Core,999,Annual
+PROD-04,AI Copilot Add-On,150,Monthly
