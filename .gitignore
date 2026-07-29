@@ -1,0 +1,32 @@
+# =========================
+# MetricMind .gitignore
+# =========================
+
+# Environment Variables (CRITICAL)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Node.js / Frontend / Semantic Layer
+node_modules/
+.next/
+out/
+build/
+.npm/
+
+# Python / Agentic Core / Data Warehouse
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+.dbt/
+logs/
+*.log
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
