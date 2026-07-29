@@ -31,9 +31,6 @@ for i in range(1, 201):
 df_customers = pd.DataFrame(customers)
 df_customers.to_csv(f"{OUTPUT_DIR}/dim_customers.csv", index=False)
 
-# ------------------------------------------------------------------
-# 2. Generate Dimension: Products / Subscriptions
-# ------------------------------------------------------------------
 print("Generating Product Plans...")
 
 products = [
@@ -59,7 +56,7 @@ for cust in customers:
     cust_id = cust["customer_id"]
     c_signup = datetime.strptime(cust["signup_date"], "%Y-%m-%d")
 
-    # Select product based on tier
+   
     if cust["tier"] == "Enterprise":
         prod = products[2]
     elif cust["tier"] == "Professional":
@@ -71,7 +68,7 @@ for cust in customers:
     active = True
 
     while curr_date < end_date and active:
-        # Simulate occasional discount or add-on volume
+
         discount = random.choices([0.0, 0.1, 0.2], weights=[0.8, 0.15, 0.05])[0]
         amount = round(prod["monthly_price"] * (1 - discount), 2)
 
@@ -87,10 +84,9 @@ for cust in customers:
 
         tx_id += 1
 
-        # Advance 1 month
+
         curr_date += timedelta(days=30)
 
-        # Monthly churn probability check (3% chance)
         if random.random() < 0.03:
             active = False
 
