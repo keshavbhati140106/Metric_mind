@@ -1,0 +1,201 @@
+customer_id,company_name,industry,region,tier,signup_date
+CUST-0001,"Rodriguez, Figueroa and Sanchez",Treasurer Tech,North America,Professional,2026-02-20
+CUST-0002,Rhodes PLC,Adjuster Tech,EMEA,Professional,2025-10-29
+CUST-0003,Johnson-Davis,Museum/gallery Tech,North America,Starter,2025-08-24
+CUST-0004,"Johnson, Gonzalez and Santos",Administrator Tech,North America,Professional,2025-06-18
+CUST-0005,Cole LLC,Technician Tech,North America,Professional,2026-03-09
+CUST-0006,Wolfe LLC,Physicist Tech,EMEA,Starter,2024-11-25
+CUST-0007,Bernard LLC,Consulting Tech,North America,Starter,2024-10-08
+CUST-0008,Davis-Abbott,Attorney Tech,LATAM,Professional,2025-02-18
+CUST-0009,Blair PLC,Secretary Tech,APAC,Starter,2026-07-14
+CUST-0010,Miller-Carter,Engineer Tech,North America,Professional,2026-06-15
+CUST-0011,Ray-Bush,Officer Tech,EMEA,Professional,2025-12-23
+CUST-0012,Mejia Inc,Museum/gallery Tech,APAC,Professional,2026-06-01
+CUST-0013,James Group,Representative Tech,EMEA,Starter,2024-12-01
+CUST-0014,Kelly-Santiago,Surveyor Tech,APAC,Enterprise,2025-11-13
+CUST-0015,"Jackson, Daniel and Martin",Officer Tech,LATAM,Starter,2025-02-22
+CUST-0016,"Watts, Robinson and Nguyen",Banker Tech,APAC,Starter,2025-01-21
+CUST-0017,Trujillo Group,Wellsite Tech,North America,Professional,2024-09-17
+CUST-0018,Gentry PLC,Worker Tech,North America,Professional,2025-01-09
+CUST-0019,"Porter, Wilkerson and Day",Manager Tech,LATAM,Enterprise,2025-02-18
+CUST-0020,Wright PLC,Solicitor Tech,APAC,Starter,2025-02-17
+CUST-0021,"Richards, Hurst and Ross",Teacher Tech,APAC,Professional,2024-11-12
+CUST-0022,"Snyder, Campos and Callahan",Ceramics/pottery Tech,North America,Professional,2025-11-27
+CUST-0023,Conner Group,Occupational Tech,EMEA,Starter,2024-09-15
+CUST-0024,James-Ferrell,Interpreter Tech,North America,Professional,2025-02-08
+CUST-0025,"Valencia, Smith and Le",Engineer Tech,North America,Enterprise,2026-03-03
+CUST-0026,Mack-Peterson,Doctor Tech,LATAM,Starter,2025-06-30
+CUST-0027,Chavez Ltd,Doctor Tech,APAC,Professional,2025-08-20
+CUST-0028,Romero Inc,Hydrogeologist Tech,APAC,Starter,2026-05-12
+CUST-0029,"Romero, Gonzalez and Brooks",Set Tech,APAC,Starter,2025-09-19
+CUST-0030,"Sellers, George and Burns",Associate Tech,North America,Professional,2026-07-19
+CUST-0031,Koch-Decker,Manager Tech,EMEA,Professional,2025-01-29
+CUST-0032,Allen PLC,Officer Tech,EMEA,Professional,2024-10-02
+CUST-0033,"Tucker, Jones and Hodges",Comptroller Tech,LATAM,Starter,2024-11-04
+CUST-0034,"Alvarez, Pierce and Baker",Officer Tech,EMEA,Starter,2025-06-21
+CUST-0035,Hickman Ltd,Instrumentation Tech,North America,Professional,2026-02-01
+CUST-0036,Ross-Powers,Midwife Tech,North America,Starter,2025-07-03
+CUST-0037,"Hayes, Wright and Brown",Director Tech,LATAM,Professional,2025-10-27
+CUST-0038,"Hall, Robinson and Jones",Clerk Tech,EMEA,Starter,2025-01-21
+CUST-0039,Whitehead LLC,Engineer Tech,APAC,Enterprise,2025-08-31
+CUST-0040,Ramirez Group,Site Tech,LATAM,Starter,2025-09-19
+CUST-0041,Cummings PLC,Author Tech,LATAM,Starter,2025-07-30
+CUST-0042,Mueller Group,Manager Tech,EMEA,Starter,2024-10-09
+CUST-0043,Hopkins LLC,Pharmacologist Tech,APAC,Starter,2025-06-12
+CUST-0044,Shields-Brown,Officer Tech,LATAM,Professional,2024-09-13
+CUST-0045,Chandler-Mcbride,Embryologist Tech,LATAM,Enterprise,2025-02-06
+CUST-0046,Lee Group,Psychologist Tech,EMEA,Starter,2025-06-20
+CUST-0047,Ramirez and Sons,Manager Tech,North America,Professional,2025-07-07
+CUST-0048,"Garcia, Pearson and Fernandez",Government Tech,North America,Professional,2024-10-08
+CUST-0049,Martin Group,Manager Tech,EMEA,Starter,2025-01-10
+CUST-0050,Barrera-Martin,Chartered Tech,LATAM,Professional,2025-05-27
+CUST-0051,House-Glover,Lecturer Tech,LATAM,Professional,2025-06-21
+CUST-0052,"Bernard, Cowan and Peters",Therapeutic Tech,LATAM,Starter,2024-11-25
+CUST-0053,Phillips Inc,Teacher Tech,North America,Professional,2026-02-19
+CUST-0054,"Brown, Edwards and Williams",Manager Tech,North America,Professional,2025-08-22
+CUST-0055,"Moore, Yu and Miller",Engineer Tech,APAC,Professional,2024-09-19
+CUST-0056,"Jones, Hensley and Powell",Years/pre Tech,APAC,Professional,2025-02-04
+CUST-0057,"Wheeler, Harvey and Barnes",Assistant Tech,LATAM,Starter,2025-10-10
+CUST-0058,"Stewart, Green and Santiago",Designer Tech,North America,Starter,2025-01-29
+CUST-0059,Foster-Powers,Hydrologist Tech,APAC,Enterprise,2025-07-18
+CUST-0060,Hickman-Walls,Acupuncturist Tech,EMEA,Enterprise,2025-07-18
+CUST-0061,"Murillo, Ferrell and Jones",Production Tech,North America,Professional,2025-08-24
+CUST-0062,Anderson-Bailey,Presenter Tech,APAC,Enterprise,2026-06-10
+CUST-0063,Wood and Sons,Teacher Tech,EMEA,Professional,2026-05-06
+CUST-0064,"Warner, Carr and Archer",Interpreter Tech,EMEA,Starter,2024-08-03
+CUST-0065,"Montoya, Evans and Alvarado",Contractor Tech,North America,Professional,2025-02-18
+CUST-0066,Preston Ltd,Surgeon Tech,LATAM,Professional,2024-11-25
+CUST-0067,Campbell-Clark,Lobbyist Tech,APAC,Starter,2025-01-02
+CUST-0068,"Walters, Baker and Freeman",Officer Tech,APAC,Enterprise,2024-10-07
+CUST-0069,"Henderson, Hill and Smith",Furniture Tech,EMEA,Starter,2025-12-04
+CUST-0070,Martin-Ramos,Physiotherapist Tech,North America,Enterprise,2025-10-06
+CUST-0071,Rodriguez Ltd,Administrator Tech,LATAM,Starter,2025-09-24
+CUST-0072,Davenport PLC,Sub Tech,EMEA,Professional,2024-11-20
+CUST-0073,Anderson-Parker,Archaeologist Tech,LATAM,Starter,2026-06-26
+CUST-0074,Clark-Wright,Contracting Tech,EMEA,Enterprise,2025-04-28
+CUST-0075,"Henson, Russell and Oliver",Fashion/clothing Tech,LATAM,Starter,2026-07-17
+CUST-0076,Hancock and Sons,Manager Tech,EMEA,Enterprise,2024-08-16
+CUST-0077,Doyle LLC,Paramedic Tech,LATAM,Professional,2026-04-12
+CUST-0078,"Shields, Cochran and Adams",Cytogeneticist Tech,APAC,Enterprise,2025-05-21
+CUST-0079,Garrison and Sons,Communications Tech,LATAM,Starter,2026-04-23
+CUST-0080,Bailey-Hoover,Agent Tech,EMEA,Starter,2025-01-17
+CUST-0081,Keller Group,Surveyor Tech,North America,Starter,2025-03-01
+CUST-0082,Rasmussen LLC,Make Tech,EMEA,Professional,2025-12-08
+CUST-0083,"Ross, Zavala and Herrera",Broker Tech,North America,Professional,2024-10-25
+CUST-0084,White-Estes,Geochemist Tech,North America,Starter,2024-08-26
+CUST-0085,Carlson LLC,Designer Tech,North America,Starter,2025-07-01
+CUST-0086,"Joyce, Wilson and Lam",Manager Tech,North America,Enterprise,2025-02-10
+CUST-0087,Fletcher Inc,Development Tech,APAC,Professional,2026-07-16
+CUST-0088,"Mcdaniel, Bentley and Mclaughlin",Chemical Tech,EMEA,Professional,2025-05-06
+CUST-0089,Jones-Beck,Lawyer Tech,LATAM,Professional,2025-11-24
+CUST-0090,Alvarado-Martinez,Hydrologist Tech,LATAM,Starter,2025-08-25
+CUST-0091,Estrada-Nguyen,Manager Tech,EMEA,Professional,2025-10-01
+CUST-0092,Lee Ltd,Officer Tech,LATAM,Starter,2026-01-05
+CUST-0093,"Orr, Gilbert and Turner",Therapist Tech,LATAM,Starter,2026-05-06
+CUST-0094,Torres and Sons,Surveyor Tech,North America,Starter,2026-03-30
+CUST-0095,"Lawson, Morris and Ramos",Production Tech,North America,Professional,2025-08-29
+CUST-0096,Leon-Moyer,Practice Tech,APAC,Starter,2025-12-21
+CUST-0097,Campbell Ltd,Scientist Tech,North America,Professional,2025-04-14
+CUST-0098,Cardenas and Sons,Handler Tech,EMEA,Starter,2025-01-18
+CUST-0099,Hernandez Inc,Analyst Tech,EMEA,Professional,2025-08-01
+CUST-0100,"Atkinson, Jones and Perry",Technician Tech,APAC,Starter,2024-12-26
+CUST-0101,"Horton, Snyder and Sanchez",Finance Tech,North America,Starter,2026-06-21
+CUST-0102,Osborne and Sons,Commissioning Tech,North America,Starter,2026-04-13
+CUST-0103,"Holmes, Williams and Wright",Worker Tech,North America,Starter,2025-07-17
+CUST-0104,Solis Ltd,Designer Tech,EMEA,Enterprise,2025-10-05
+CUST-0105,"Stewart, Fischer and Ramos",Merchandiser Tech,LATAM,Starter,2025-06-24
+CUST-0106,"Griffin, Moore and Hensley",Television Tech,LATAM,Starter,2025-02-14
+CUST-0107,Larsen LLC,Sciences) Tech,EMEA,Enterprise,2025-08-08
+CUST-0108,"Allen, Gonzales and Reeves",Manager Tech,LATAM,Starter,2025-02-24
+CUST-0109,Flores-Fernandez,Banker Tech,LATAM,Starter,2024-11-22
+CUST-0110,Reyes and Sons,Site Tech,LATAM,Starter,2024-09-15
+CUST-0111,Russell-Daniels,Pathologist Tech,APAC,Starter,2024-09-14
+CUST-0112,Wall Group,Producer Tech,North America,Starter,2026-01-19
+CUST-0113,Gates PLC,Conservator Tech,North America,Professional,2025-08-02
+CUST-0114,Bender LLC,Journalist Tech,North America,Professional,2026-05-21
+CUST-0115,Medina-Navarro,Toxicologist Tech,LATAM,Starter,2026-06-25
+CUST-0116,Freeman LLC,Photographer Tech,EMEA,Professional,2025-08-09
+CUST-0117,Price Ltd,Ophthalmologist Tech,North America,Starter,2026-02-10
+CUST-0118,Pittman and Sons,Writer Tech,North America,Enterprise,2025-09-15
+CUST-0119,Meadows PLC,Practice Tech,EMEA,Professional,2025-12-24
+CUST-0120,Miller Group,Engineer Tech,EMEA,Starter,2026-06-01
+CUST-0121,White-Green,Land Tech,North America,Professional,2025-01-08
+CUST-0122,Murphy-Juarez,Officer Tech,LATAM,Professional,2025-03-01
+CUST-0123,King-Miller,Executive Tech,APAC,Professional,2026-03-01
+CUST-0124,"Williams, Crane and Walker",Presenter Tech,EMEA,Enterprise,2026-03-26
+CUST-0125,"Williams, Johnson and Wright",Planner Tech,APAC,Professional,2025-11-22
+CUST-0126,Allen Group,Technologist Tech,LATAM,Starter,2025-10-09
+CUST-0127,Marshall LLC,Retail Tech,APAC,Starter,2024-12-05
+CUST-0128,"Lawson, Adkins and Wilson",Community Tech,North America,Starter,2025-03-26
+CUST-0129,Lane LLC,Technician Tech,North America,Starter,2026-01-05
+CUST-0130,Sanders-Espinoza,Manager Tech,EMEA,Starter,2025-10-30
+CUST-0131,"Rivas, Sanchez and Terry",Illustrator Tech,EMEA,Professional,2026-05-19
+CUST-0132,"Burke, Martinez and Riggs",Technologist Tech,North America,Enterprise,2025-04-23
+CUST-0133,"Patterson, Wood and Hunter",Conveyancer Tech,APAC,Enterprise,2024-08-06
+CUST-0134,Short-Garcia,Illustrator Tech,LATAM,Starter,2025-12-03
+CUST-0135,Zimmerman-Graham,(maths) Tech,APAC,Professional,2025-12-15
+CUST-0136,Gilbert-Gillespie,Assistant Tech,North America,Professional,2025-07-24
+CUST-0137,Petersen-Vargas,Trainer Tech,APAC,Professional,2026-05-20
+CUST-0138,Rivas Inc,Specialist Tech,North America,Enterprise,2026-06-12
+CUST-0139,Sanchez-Marshall,Manager Tech,EMEA,Enterprise,2025-12-28
+CUST-0140,Rogers-Snyder,Broadcasting Tech,North America,Starter,2024-12-16
+CUST-0141,Lewis-Salinas,Public Tech,EMEA,Professional,2025-03-02
+CUST-0142,"Haynes, Hill and Smith",Aeronautical Tech,EMEA,Starter,2024-10-02
+CUST-0143,Cortez Group,Control Tech,EMEA,Professional,2026-03-08
+CUST-0144,Vaughn Ltd,Officer Tech,APAC,Professional,2025-07-11
+CUST-0145,Davis and Sons,Ophthalmologist Tech,APAC,Professional,2026-01-16
+CUST-0146,Torres PLC,Retail Tech,North America,Enterprise,2025-07-30
+CUST-0147,"Schmidt, Coleman and Reese",Lawyer Tech,LATAM,Starter,2025-04-27
+CUST-0148,"Chavez, Parker and Hall",Automotive Tech,North America,Professional,2025-03-30
+CUST-0149,Newton Ltd,Engineer Tech,EMEA,Starter,2024-12-23
+CUST-0150,Rodgers LLC,Manager Tech,APAC,Professional,2026-03-10
+CUST-0151,"Carlson, Hooper and Wall",Manager/officer Tech,LATAM,Starter,2025-01-20
+CUST-0152,White-Smith,Government Tech,LATAM,Professional,2024-11-03
+CUST-0153,Williams-Brown,Commercial Tech,North America,Professional,2026-01-20
+CUST-0154,Little Group,Contracting Tech,EMEA,Starter,2026-06-05
+CUST-0155,Andrews Group,Manager Tech,APAC,Professional,2025-07-05
+CUST-0156,Lopez-Williams,Manager Tech,EMEA,Professional,2024-10-24
+CUST-0157,Morales Inc,Author Tech,North America,Starter,2025-11-28
+CUST-0158,"Brown, Hernandez and Hart",Buyer Tech,North America,Starter,2024-10-02
+CUST-0159,Wilson Group,Officer Tech,EMEA,Enterprise,2025-11-03
+CUST-0160,"Perez, Mills and Hayes",Officer Tech,North America,Professional,2025-03-15
+CUST-0161,"Branch, Torres and Oliver",Manager Tech,LATAM,Starter,2026-02-22
+CUST-0162,Meza and Sons,Mining Tech,EMEA,Enterprise,2025-02-18
+CUST-0163,"Miller, Allen and Arnold",Graphic Tech,EMEA,Enterprise,2024-07-30
+CUST-0164,Hayes-Wheeler,Amenity Tech,EMEA,Enterprise,2024-08-22
+CUST-0165,Roberts LLC,Emeritus Tech,North America,Enterprise,2024-09-21
+CUST-0166,"Hall, Baker and Moody",Manager Tech,APAC,Starter,2025-12-23
+CUST-0167,Coleman PLC,Officer Tech,LATAM,Professional,2025-12-13
+CUST-0168,Kerr and Sons,Surveyor Tech,EMEA,Professional,2024-09-12
+CUST-0169,Sparks PLC,Education Tech,North America,Starter,2026-07-13
+CUST-0170,Gonzales-Harrison,Buyer Tech,North America,Starter,2026-01-22
+CUST-0171,Bender-Mason,Party Tech,EMEA,Enterprise,2025-07-03
+CUST-0172,George Group,Trainer Tech,LATAM,Starter,2025-11-08
+CUST-0173,Johnson-Perez,Technician Tech,EMEA,Starter,2025-10-27
+CUST-0174,Key Ltd,Processor Tech,EMEA,Starter,2025-10-18
+CUST-0175,Hines and Sons,Movement Tech,APAC,Starter,2025-09-04
+CUST-0176,"Ramos, Ramirez and Shea",Photographer Tech,APAC,Enterprise,2025-12-03
+CUST-0177,Costa-Harrison,Osteopath Tech,LATAM,Starter,2025-04-12
+CUST-0178,Santiago-Hodge,Architect Tech,APAC,Professional,2025-06-12
+CUST-0179,"Simpson, Bates and Morales",Statistician Tech,North America,Enterprise,2024-08-25
+CUST-0180,Miller-King,Manager Tech,APAC,Enterprise,2026-03-20
+CUST-0181,Hancock-Bryan,Manager Tech,APAC,Starter,2025-12-20
+CUST-0182,"Murray, Brown and Stone",Writer Tech,LATAM,Starter,2026-03-07
+CUST-0183,Garrett-Wolf,Electronics Tech,APAC,Starter,2025-02-20
+CUST-0184,"Anderson, Roberts and Gilmore",Producer Tech,North America,Starter,2024-10-30
+CUST-0185,Dudley PLC,Editor Tech,EMEA,Starter,2026-01-30
+CUST-0186,Collins Inc,Sub Tech,LATAM,Starter,2025-06-09
+CUST-0187,Walker Inc,Clinical Tech,EMEA,Starter,2024-10-27
+CUST-0188,"Collier, Jimenez and Moran",Executive Tech,North America,Starter,2026-01-26
+CUST-0189,Perry-Olson,Manager Tech,APAC,Enterprise,2025-02-02
+CUST-0190,Arnold-Reyes,Manager Tech,North America,Professional,2025-08-26
+CUST-0191,"Suarez, Shields and Hill",Examiner Tech,APAC,Professional,2025-04-17
+CUST-0192,"Adams, Smith and Barber",Manager Tech,LATAM,Professional,2025-10-21
+CUST-0193,"Burns, Hernandez and Ryan",Manager Tech,APAC,Starter,2025-04-12
+CUST-0194,"Hines, Bennett and Cantu",Engineer Tech,EMEA,Professional,2026-01-20
+CUST-0195,Armstrong and Sons,Nurse Tech,LATAM,Starter,2024-08-30
+CUST-0196,Garner-Thornton,Curator Tech,EMEA,Professional,2025-05-23
+CUST-0197,"Sparks, Pearson and Hernandez",Animator Tech,APAC,Professional,2024-11-03
+CUST-0198,"Sanford, Rivera and Garcia",Printmaker Tech,North America,Starter,2024-10-13
+CUST-0199,"Lozano, Smith and Thomas",Fashion/clothing Tech,EMEA,Starter,2024-09-24
+CUST-0200,Harrington-Baker,Worker Tech,APAC,Starter,2026-01-17
