@@ -1,0 +1,18 @@
+user:
+  outputs:
+    default:
+      account: IKGMNCH-VN75979
+      auth_type: password
+      client_session_keep_alive: true
+      connect_retries: 3
+      connect_timeout: 30
+      database: metric_mind_db
+      password: QsCgUkN@123123
+      retry_on_database_errors: true
+      role: ACCOUNTADMIN
+      schema: dbt_ksingh
+      threads: 6
+      type: snowflake
+      user: KESHAV
+      warehouse: COMPUTE_WH
+  target: default
