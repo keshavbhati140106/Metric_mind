@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw
+    database: metric_mind_db
+    schema: RAW
+    tables:
+      - name: raw_dim_customers
+      - name: raw_dim_products
+      - name: raw_fact_transactions
