@@ -19,3 +19,7 @@ cubes:
       - name: tier
         sql: tier
         type: string
+
+      - name: signup_date
+        sql: signup_date
+        type: time

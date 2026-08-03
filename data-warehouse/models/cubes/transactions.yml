@@ -14,6 +14,8 @@ cubes:
       - name: total_revenue
         sql: amount
         type: sum
+        filters:
+          - sql: "{CUBE}.status = 'Settled'"
 
       - name: transaction_count
         type: count
