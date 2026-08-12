@@ -7,7 +7,7 @@ Giving an LLM raw access to a data warehouse often results in hallucinated joins
 - **Semantic Layer (Cube.dev / dbt):** Centralizes mathematical definitions of business metrics as code.
 - **Agentic Orchestrator (LangChain / Llama 3):** Translates natural language into governed semantic API calls.
 - **Data Lakehouse (Snowflake):** The underlying storage and compute engine.
-- **Conversational BI Interface (Next.js & ECharts):** A custom UI rendering natural language alongside interactive data visualizations.
+- **Conversational BI Interface :** I used a stremlit for thsi project
 
 ## Project Structure
 - `/data-warehouse` - dbt models and mock data ingestion schemas.
