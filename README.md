@@ -13,4 +13,4 @@ Giving an LLM raw access to a data warehouse often results in hallucinated joins
 - `/data-warehouse` - dbt models and mock data ingestion schemas.
 - `/semantic-layer` - Cube.dev configuration and metric definitions.
 - `/agentic-core` - LangChain reasoning, prompts, and tool orchestration.
-- `/frontend` - Next.js conversational UI and dynamic charting.
+- `/frontend` - used streamlit 
