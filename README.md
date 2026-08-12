@@ -1,6 +1,6 @@
 # MetricMind: Agentic Semantic BI Engine
 
-An advanced, enterprise-grade Data Analytics architecture designed to bridge the gap between Generative AI and strict corporate data governance.
+It is AI of modern times, it proves it via combining many tech at once and doing truly what a AI should do. It is a logically verified model interaction based system which is best at it's place when it comes to semantic layer integrations and natural language interaction.
 
 ## Architecture Overview
 Giving an LLM raw access to a data warehouse often results in hallucinated joins and rogue SQL. MetricMind solves this by utilizing a modern Agentic Semantic BI approach:
