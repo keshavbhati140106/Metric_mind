@@ -3,6 +3,7 @@ from streamlit_echarts import st_echarts
 import sys
 import os
 import json
+import re
 
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'agentic-core')))
@@ -39,32 +40,58 @@ if prompt := st.chat_input("E.g., What is our total revenue for the last 30 days
     with st.chat_message("assistant"):
         with st.spinner("Thinking and querying the semantic layer..."):
             try:
-
                 formatted_messages = [
-                    ("system", "You are MetricMind, an advanced BI assistant. Use the provided tools to query the Semantic Layer for data. Never write raw SQL. Only use the tools.")
+                    ("system", '''You are MetricMind, an advanced BI assistant. Use the provided tools to query the Semantic Layer for data. Never write raw SQL. Only use the tools.
+If the user asks for data that is best represented as a chart (like a time series or categorical breakdown), you MUST include an ECharts JSON configuration block in your response.
+Wrap the JSON exactly in a markdown block like this:
+```json
+{
+  "echarts_options": {
+    "title": {"text": "Chart Title"},
+    "tooltip": {},
+    "xAxis": {"type": "category", "data": ["A", "B"]},
+    "yAxis": {"type": "value"},
+    "series": [{"data": [10, 20], "type": "bar"}]
+  }
+}
+```
+''')
                 ]
                 for m in st.session_state.messages[:-1]:
                     if m["role"] == "user":
                         formatted_messages.append(("user", m["content"]))
                     elif m["role"] == "assistant":
                         formatted_messages.append(("assistant", m["content"]))
+                
                 formatted_messages.append(("user", prompt))
                 
                 result = st.session_state.agent.invoke({"messages": formatted_messages})
                 response_content = result["messages"][-1].content
                 
-
                 if isinstance(response_content, list):
                     text_parts = [block["text"] for block in response_content if isinstance(block, dict) and block.get("type") == "text" and "text" in block]
                     response = "\n".join(text_parts) if text_parts else str(response_content)
                 else:
                     response = str(response_content)
                     
+                echarts_options = None
+                json_match = re.search(r'```json\n(.*?)\n```', response, re.DOTALL)
+                if json_match:
+                    try:
+                        parsed = json.loads(json_match.group(1))
+                        if "echarts_options" in parsed:
+                            echarts_options = parsed["echarts_options"]
+                            response = response.replace(json_match.group(0), "").strip()
+                    except Exception:
+                        pass
+
                 st.markdown(response)
                 
-
-                st.session_state.messages.append({"role": "assistant", "content": response})
+                if echarts_options:
+                    st_echarts(options=echarts_options, height="400px")
+                    st.session_state.messages.append({"role": "assistant", "content": response, "echarts_options": echarts_options})
+                else:
+                    st.session_state.messages.append({"role": "assistant", "content": response})
                 
             except Exception as e:
                 st.error(f"Error: {e}")
-
