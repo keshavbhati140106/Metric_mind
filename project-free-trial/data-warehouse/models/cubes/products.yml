@@ -1,0 +1,17 @@
+cubes:
+  - name: products
+    sql_table: dim_products
+
+    dimensions:
+      - name: product_id
+        sql: product_id
+        type: string
+        primary_key: true
+
+      - name: product_name
+        sql: product_name
+        type: string
+
+      - name: billing_cycle
+        sql: billing_cycle
+        type: string
