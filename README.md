@@ -13,4 +13,8 @@ Giving an LLM raw access to a data warehouse often results in hallucinated joins
 - `/data-warehouse` - dbt models and mock data ingestion schemas.
 - `/semantic-layer` - Cube.dev configuration and metric definitions.
 - `/agentic-core` - LangChain reasoning, prompts, and tool orchestration.
-- `/frontend` - used streamlit 
+- `/frontend` - used streamlit
+
+## BYOK ( Bring Your Own Key ) 
+As the deployment is based on Gemini API key so it is obvious that the project has only limited resources.  So  to  avoid  "Resource  Exhausted" error and also to make it open for everyone. I built  a  BYOK(bring  your  own  key)  version  in which you can paste your google AI studio API key and run the metric-mind engine.
+refer my Project-freetrial folder in github.
